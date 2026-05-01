@@ -62,9 +62,14 @@ int main() {
 
     row -= 1;
 
+    printf("Element of row %d :- ", row);
+
     for(int j = 0; j < x; j++) {
+        printf("%d ", a[row][j]);
         sum1 += a[row][j];
     }
+
+    printf("\n");
 
     printf("The sum of row %d :- %d\n", row, sum1);
 
@@ -90,9 +95,14 @@ int main() {
 
     col -= 1;
 
+    printf("Element of col %d :- ", col);
+
     for(int i = 0; i < y; i++) {
+        printf("%d ", a[col][i]);
         sum2 += a[col][i];
     }
+
+    printf("\n");
 
     printf("The sum of col %d :- %d", col, sum2);
 
