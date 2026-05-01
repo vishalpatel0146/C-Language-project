@@ -63,6 +63,7 @@ int main() {
     row -= 1;
 
     for(int j = 0; j < x; j++) {
+        printf("Element of row %d :- %d ", row, a[row][j]);
         sum1 += a[row][j];
     }
 
@@ -91,6 +92,7 @@ int main() {
     col -= 1;
 
     for(int i = 0; i < y; i++) {
+        printf("Element of col %d :- %d ", col, a[col][i]);
         sum2 += a[col][i];
     }
 
