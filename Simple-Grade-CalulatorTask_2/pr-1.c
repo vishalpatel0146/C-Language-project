@@ -64,7 +64,7 @@ int main() {
     //   statement. Print 'Congratulation! You are aligible for next level' if grade is from 'A' to 'D'. Print 
     //   'Please try again next time' if the grade is 'F'.
 
-    if(grade == 'A' && grade == 'D'){
+    if(grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D'){
         printf("Congratulation! You are aligible for next level.");
     } else{
         printf("Please try again next time.");
