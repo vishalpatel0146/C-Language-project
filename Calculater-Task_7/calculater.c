@@ -32,7 +32,6 @@ int mod(int a, int b)
 
 int main()
 {
-
 	int a, b, operater, ans;
 	float divans;
 	int i = 1;
@@ -93,6 +92,7 @@ int main()
 			break;
 
 		case 4:
+			
 			if(b > 0 && a > 0) {
 				divans = division(a, b);
 				printf("Division of %d and %d :- %0.2f\n\n", a, b, divans);
@@ -104,6 +104,7 @@ int main()
 			break;
 
 		case 5:
+			
 			if(b > 0 && a > 0) {
 				ans = mod(a, b);
 				printf("Modules of %d and %d :- %d\n\n", a, b, ans);
