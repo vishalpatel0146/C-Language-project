@@ -41,10 +41,10 @@ int main()
 	{
 
 		printf("Press 1 To Find Addition\n");
-		printf("Press 2 To Find Subraction\n");
+		printf("Press 2 To Find Subtraction\n");
 		printf("Press 3 To Find Multiplication\n");
 		printf("Press 4 To Find Division\n");
-		printf("Press 5 To Find Modules\n");
+		printf("Press 5 To Find Modulus\n");
 		printf("Press 0 To Exit\n");
 
 		try_again:
